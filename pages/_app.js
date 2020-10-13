@@ -9,10 +9,12 @@ import {
   SCALE,
   TYPOGRAPHY,
 } from "@hopin-team/ui-symbols";
+import { GlobalStyles } from "../components/GlobalStyles";
 
 export default function App({ Component, props }) {
   return (
     <ThemeProvider theme={props.theme ?? {}}>
+      <GlobalStyles />
       <Component />
     </ThemeProvider>
   );
