@@ -1,3 +1,5 @@
+import "@reach/tabs/styles.css";
+
 import { ThemeProvider } from "styled-components";
 import { merge } from "lodash";
 import {
