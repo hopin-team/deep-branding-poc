@@ -1153,6 +1153,11 @@
     "@hopin-team/ui-helper-with-space" "^1.1.7"
     "@hopin-team/ui-symbols" "^2.0.0"
 
+"@hopin-team/ui-theme@^2.4.1":
+  version "2.4.1"
+  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-theme/2.4.1/b4dab86843babc3db71f11d5bfeadbc6e4454dfa2fca1115e8f5500b39ebe1cd#79c74d8d0be7d390fce2a6b25c31fcd550ed179b"
+  integrity sha512-pZ/idL7NMJ9VBgFqfup7HdwSNCbCJFlNOM/PJMb2CWOMPlQyUMAfYvaBcu8a3d7kNf14PR1IBZd513hoj9PWlw==
+
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
   resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-9.5.3.tgz#3275301f08045ecc709e3273031973a1f5e81427"

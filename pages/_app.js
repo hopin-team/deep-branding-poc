@@ -12,11 +12,18 @@ import {
   TYPOGRAPHY,
 } from "@hopin-team/ui-symbols";
 import { GlobalStyles } from "../components/global-styles";
-import '../node_modules/normalize.css/normalize.css'
+import { mapTheme } from '../helpers/map-theme';
+import "../node_modules/normalize.css/normalize.css";
+import "../node_modules/@hopin-team/ui-theme/src/theme.css";
 
 export default function App({ Component, props }) {
+  const transitionalTheme = mapTheme();
   return (
-    <ThemeProvider theme={props.theme ?? {}}>
+    // (Phase Two) ThemeProvider all the way!
+    // <ThemeProvider theme={props.theme ?? {}}>
+
+    // (Phase One) Transitional
+    <ThemeProvider theme={transitionalTheme}>
       <GlobalStyles />
       <Component />
     </ThemeProvider>

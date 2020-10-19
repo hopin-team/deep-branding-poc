@@ -24,26 +24,7 @@ export default function Home() {
       <Main>
         <Box>
           <Text as="h1" color="grey-800" pattern="headingOne">
-            Hello
-          </Text>
-          <Text as="p" color="grey-650" pattern="body">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit luctus,
-            accumsan malesuada erat dictumst dictum vestibulum. Risus sociosqu
-            ultricies inceptos dictum purus viverra leo nulla libero, volutpat
-            dapibus condimentum accumsan fusce cursus aliquam enim, cum
-            ullamcorper sapien feugiat erat iaculis morbi mi. Non sed penatibus
-            vehicula neque inceptos egestas tellus, habitasse molestie dictumst
-            lacinia tincidunt convallis, felis nisi nibh sociis quam ornare.
-            Natoque habitant nec cras ridiculus tempus quis condimentum
-            habitasse, dictum inceptos duis pretium gravida nascetur laoreet,
-            sociis ut tristique himenaeos velit consequat pellentesque. Platea
-            etiam sociosqu malesuada netus tincidunt proin cursus mollis
-            facilisis, enim orci curabitur senectus nullam elementum inceptos
-            venenatis leo eget, egestas viverra eleifend nisi ullamcorper litora
-            non taciti. Sociosqu quisque arcu ullamcorper convallis imperdiet
-            massa morbi sed cum, integer in tempor ultrices velit himenaeos
-            accumsan donec fames, proin nulla sollicitudin ultricies dignissim
-            fusce sem phasellus.
+            Hello👋 Welcome to the Theming Playground!
           </Text>
           <Tabs pattern="main">
             <TabHeader>
@@ -57,8 +38,29 @@ export default function Home() {
             <TabPanels>
               <TabPanel>
                 <Box>
-                  <Text>Panel one!</Text>
-                  <FierceButton size="large">Button</FierceButton>
+                  <Text element="p">Panel one!</Text>
+                  <Text as="p" color="grey-650" pattern="body">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                    luctus, accumsan malesuada erat dictumst dictum vestibulum.
+                    Risus sociosqu ultricies inceptos dictum purus viverra leo
+                    nulla libero, volutpat dapibus condimentum accumsan fusce
+                    cursus aliquam enim, cum ullamcorper sapien feugiat erat
+                    iaculis morbi mi. Non sed penatibus vehicula neque inceptos
+                    egestas tellus, habitasse molestie dictumst lacinia
+                    tincidunt convallis, felis nisi nibh sociis quam ornare.
+                    Natoque habitant nec cras ridiculus tempus quis condimentum
+                    habitasse, dictum inceptos duis pretium gravida nascetur
+                    laoreet, sociis ut tristique himenaeos velit consequat
+                    pellentesque. Platea etiam sociosqu malesuada netus
+                    tincidunt proin cursus mollis facilisis, enim orci curabitur
+                    senectus nullam elementum inceptos venenatis leo eget,
+                    egestas viverra eleifend nisi ullamcorper litora non taciti.
+                    Sociosqu quisque arcu ullamcorper convallis imperdiet massa
+                    morbi sed cum, integer in tempor ultrices velit himenaeos
+                    accumsan donec fames, proin nulla sollicitudin ultricies
+                    dignissim fusce sem phasellus.
+                  </Text>
+                  <FierceButton size="large" href="/stable-classes">Beam me up!</FierceButton>
                 </Box>
               </TabPanel>
               <TabPanel>
