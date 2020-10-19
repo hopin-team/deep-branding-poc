@@ -17,13 +17,13 @@ import "../node_modules/normalize.css/normalize.css";
 import "../node_modules/@hopin-team/ui-theme/src/theme.css";
 
 export default function App({ Component, props }) {
-  const transitionalTheme = mapTheme();
+  // (Phase One) Transitional
+  // const transitionalTheme = mapTheme();
   return (
-    // (Phase Two) ThemeProvider all the way!
-    // <ThemeProvider theme={props.theme ?? {}}>
+    // <ThemeProvider theme={transitionalTheme}>
 
-    // (Phase One) Transitional
-    <ThemeProvider theme={transitionalTheme}>
+    // (Phase Two) ThemeProvider all the way!
+    <ThemeProvider theme={props.theme ?? {}}>
       <GlobalStyles />
       <Component />
     </ThemeProvider>
