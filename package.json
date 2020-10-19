@@ -9,16 +9,24 @@
   },
   "dependencies": {
     "@hopin-team/ui-box": "^1.1.4",
-    "@hopin-team/ui-button": "^3.0.0",
+    "@hopin-team/ui-butticon": "^2.0.0",
+    "@hopin-team/ui-button": "^3.1.0",
+    "@hopin-team/ui-card": "^1.1.4",
     "@hopin-team/ui-symbols": "^2.0.0",
     "@hopin-team/ui-tabs": "^2.0.0",
     "@hopin-team/ui-text": "^1.2.3",
+    "@hopin-team/ui-text-field": "file:.yalc/@hopin-team/ui-text-field",
     "lodash": "^4.17.20",
     "next": "9.5.3",
     "next-google-fonts": "^1.2.1",
-    "polished": "^4.0.2",
+    "normalize.css": "^8.0.1",
+    "polished": "^4.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-hook-form": "^6.9.2",
     "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
   }
 }

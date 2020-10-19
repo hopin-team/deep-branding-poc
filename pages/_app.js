@@ -11,7 +11,8 @@ import {
   SCALE,
   TYPOGRAPHY,
 } from "@hopin-team/ui-symbols";
-import { GlobalStyles } from "../components/GlobalStyles";
+import { GlobalStyles } from "../components/global-styles";
+import '../node_modules/normalize.css/normalize.css'
 
 export default function App({ Component, props }) {
   return (

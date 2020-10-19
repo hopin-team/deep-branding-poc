@@ -972,6 +972,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.12.0":
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.10.4", "@babel/template@^7.7.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.4.tgz#3251996c4200ebc71d1a8fc405fba940f36ba278"
@@ -1053,13 +1060,36 @@
     "@hopin-team/ui-helper-props-to-styles" "^1.1.7"
     "@hopin-team/ui-symbols" "^2.0.0"
 
-"@hopin-team/ui-button@^3.0.0":
-  version "3.0.0"
-  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-button/3.0.0/4316b1268ece6db52f5a7b274ed802edd9bd3be1b7970a00645ef6181948e1d1#ddf888a39d35bcb1cc5d4662d6a782301dbf2157"
-  integrity sha512-peuRerRqKBvyo5mWHlo/3lOGRhD88ep6989t51Wet3MP/paesabFAdiF8wyD1izEYjO2JtpeawRTvjnjSFL9vQ==
+"@hopin-team/ui-butticon@^2.0.0":
+  version "2.0.0"
+  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-butticon/2.0.0/49cbfd499e58d204eebcf0b574b6550b7a37b1110739604080e05d6b7c8a32cd#4610458ffed424a67aab4a6b7df12481c57c894e"
+  integrity sha512-Thc3yZQO7ZbH7y7Irm2oATlxwj+M2BGWsaWlZAoEfBsoP2xhf2Bgs+PwkozXmMrjvxMx9T8jQMRH9Q7+Q7DThQ==
   dependencies:
     "@hopin-team/ui-blocks" "^2.0.0"
     "@hopin-team/ui-helper-deep-branding" "^1.1.4"
+    "@hopin-team/ui-helper-props-to-styles" "^1.1.7"
+    "@hopin-team/ui-icons" "^3.5.1"
+    "@hopin-team/ui-symbols" "^2.0.0"
+
+"@hopin-team/ui-button@^3.1.0":
+  version "3.1.0"
+  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-button/3.1.0/702891ddae848b6ab0f0f412a6536845f1810807a5ca7d7f9215993c44977caa#10deb42471d0fbd793b9e0373e74412f7d7b13ac"
+  integrity sha512-tpD1xyrntJvMh6BCJCWrIgClTgqfcdu3o8kApWgzbnd4PzP4zPuwD4NXyRN9BD94eIZfJKuwCZwZsLiavy+YHA==
+  dependencies:
+    "@hopin-team/ui-blocks" "^2.0.0"
+    "@hopin-team/ui-helper-deep-branding" "^1.1.4"
+    "@hopin-team/ui-helper-props-to-styles" "^1.1.7"
+    "@hopin-team/ui-symbols" "^2.0.0"
+    polished "^4.0.2"
+
+"@hopin-team/ui-card@^1.1.4":
+  version "1.1.4"
+  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-card/1.1.4/ebc11bd3f5870aa9cc47b2503bc0a89df803f56787a701553c4c97549c416e15#97a394f83079b2c434d40f40cfa687864e15360c"
+  integrity sha512-h5cLkdpjTT7FbZxk4K7xq7klYnztryFJnca/ngpODsRJD9VbEkxbetcGUni8xvPRkHan7/m0JbuzPeFXdwysfQ==
+  dependencies:
+    "@hopin-team/ui-blocks" "^2.0.0"
+    "@hopin-team/ui-box" "^1.1.4"
+    "@hopin-team/ui-helper-get-symbol" "^1.1.3"
     "@hopin-team/ui-helper-props-to-styles" "^1.1.7"
 
 "@hopin-team/ui-helper-deep-branding@^1.1.4":
@@ -1091,6 +1121,11 @@
   integrity sha512-5tzwIYEUJe10aXUDBo8UnRyuMUzS457xvdXC0zNnZs/05Qp4tvWHc7adQNlFiL1VNmclvxKfxkarT9V9nm34kQ==
   dependencies:
     "@hopin-team/ui-symbols" "^2.0.0"
+
+"@hopin-team/ui-icons@^3.5.1":
+  version "3.5.1"
+  resolved "https://npm.pkg.github.com/download/@hopin-team/ui-icons/3.5.1/5196e806207027de9b6507592f9e7147804771f86ed45223e96eb465f61a0129#975dab35d4ca4da3dc6ddaa75f86db91597977e7"
+  integrity sha512-Frp8BMFMZOLq4Sg9F0Ea5SeBFhorV1rc8OYi0t8LkQpzVCAeSygJbjVktux3ONWQyEphmieRv+7szHTUWkicsA==
 
 "@hopin-team/ui-symbols@^2.0.0":
   version "2.0.0"
@@ -1540,7 +1575,7 @@ babel-plugin-dynamic-import-node@^2.3.3:
   dependencies:
     object.assign "^4.1.0"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.11.1:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.11.1.tgz#5296a9e557d736c3186be079fff27c6665d63d76"
   integrity sha512-YwrInHyKUk1PU3avIRdiLyCpM++18Rs1NgyMXEAQC33rIXs/vro0A+stf4sT0Gf22Got+xRWB8Cm0tw+qkRzBA==
@@ -3699,6 +3734,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+normalize.css@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -3916,6 +3956,13 @@ polished@^4.0.2:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
+polished@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.0.3.tgz#e2bde249f8884bdabc6997dd3eca225ee32f7a26"
+  integrity sha512-yOALHMrqcYHlHIxFkHvGX8NGsjsbSaYMZ8Z3uEElVpzF5ZgNmTgqMOh4bnSVXGC6sXjBTZCH6+GebTRWhJR4zQ==
+  dependencies:
+    "@babel/runtime" "^7.12.0"
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -4118,6 +4165,11 @@ react-dom@16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-hook-form@^6.9.2:
+  version "6.9.2"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-6.9.2.tgz#9512cd424e62235fda13c8fc1821f88c352e3d23"
+  integrity sha512-vCPEbHVCRvsoqrQARgQ7a3VrXzqbFOO53gHFRdQzLzHMT9kxum3wfcSi8A1b49KPRsomvsqexH4tBUJMneEu+Q==
 
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"

@@ -1,5 +1,5 @@
 import { Box } from "@hopin-team/ui-box";
-import { Button } from "@hopin-team/ui-button";
+import { FierceButton } from "../components/fierce-button";
 import {
   Tabs,
   Tab,
@@ -26,7 +26,7 @@ export default function Home() {
           <Text as="h1" color="grey-800" pattern="headingOne">
             Hello
           </Text>
-          <Text as="p" color="grey-650">
+          <Text as="p" color="grey-650" pattern="body">
             Lorem ipsum dolor sit amet consectetur adipiscing elit luctus,
             accumsan malesuada erat dictumst dictum vestibulum. Risus sociosqu
             ultricies inceptos dictum purus viverra leo nulla libero, volutpat
@@ -58,7 +58,7 @@ export default function Home() {
               <TabPanel>
                 <Box>
                   <Text>Panel one!</Text>
-                  <Button pattern="success">Button</Button>
+                  <FierceButton size="large">Button</FierceButton>
                 </Box>
               </TabPanel>
               <TabPanel>
